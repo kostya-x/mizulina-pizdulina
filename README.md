@@ -1,3 +1,8 @@
+Как скачать с гита:
+Нажать на зелёную кнопку <> Code
+![image](https://github.com/user-attachments/assets/2493b931-f32d-45bd-a8b8-3136915c5f6f)
+Кликнуть на Download ZIP
+
 Как подключить это расширение:
 1. Открть Google Chrome и перейти chrome://exensions
 2. Включить Режим Разработчика (переключатель в правом верхнем углу).

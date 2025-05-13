@@ -12,16 +12,3 @@ function replaceText(node) {
 }
 
 replaceText(document.body);
-
-const observer = new MutationObserver((mutations) => {
-  mutations.forEach((mutation) => {
-    mutation.addedNodes.forEach((node) => {
-      replaceText(node);
-    });
-  });
-});
-
-observer.observe(document.body, {
-  childList: true,
-  subtree: true
-});

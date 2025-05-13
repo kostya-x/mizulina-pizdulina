@@ -1,6 +1,6 @@
 function replaceText(node) {
   if (node.nodeType === Node.TEXT_NODE) {
-    node.textContent = node.textContent.replace(/Мизулина/g, 'Пиздулина');
+    node.textContent = node.textContent.replace(/Мизулина/g, 'Пиздулина').replace(/Мизулиной/g, 'Пиздулиной').replace(/Мизулину/g, 'Пиздулину');
   } else {
     for (let i = 0; i < node.childNodes.length; i++) {
       replaceText(node.childNodes[i]);
